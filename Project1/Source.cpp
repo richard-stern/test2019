@@ -4,7 +4,7 @@
 #include "Settings.h"
 using namespace std;
 
-#define LIST_SIZE 10000
+#define LIST_SIZE 9000
 
 int main() 
 {
