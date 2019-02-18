@@ -29,6 +29,8 @@ int main()
 		cin.clear();
 		cin.ignore(99999, '\n');
 
+		//After the cin command
+
 		if (input == 1)
 		{
 			cout << "Yay I guessed your number, I win!" << endl;
