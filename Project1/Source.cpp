@@ -18,7 +18,7 @@ int main()
 
 	while (L <= R)
 	{
-		cout << "Is your number: " << M << endl;
+		cout << "Is your numberasdasas: " << M << endl;
 		cout << "1: Correct" << endl;
 		cout << "2: Higher" << endl;
 		cout << "3: Lower" << endl;
@@ -34,6 +34,7 @@ int main()
 			found = true;
 			break;
 		}
+
 		else if (input == 2)
 		{
 			L = M + 1;
@@ -48,42 +49,10 @@ int main()
 
 	if (!found)
 	{
-		cout << "Hey you cheated!" << endl;
+		cout << "Hey you cheated! Stop it!" << endl;
 	}
 
-	/*char myList[LIST_SIZE][100];
-	for (int i = 0; i < LIST_SIZE; ++i)
-	{
-		sprintf(myList[i], "DATA %i", i);
-	}
-
-	char search[100] = "DATA 9815";
-
-	int L = 0;
-	int R = LIST_SIZE - 1;
-	int M = (L + R) / 2;
-
-	while (L <= R)
-	{
-		cout << "Testing number " << M << endl;
-		int result = strcmp(search, myList[M]);
-		if (result == 0)
-		{
-			cout << M << endl;
-			break;
-		}
-		else if (result < 0)
-		{
-			R = M - 1;
-			M = (L + R) / 2;
-		}
-		else
-		{
-			L = M + 1;
-			M = (L + R) / 2;
-		}
-	}*/
-
+	
 	/*for (int i = 0; i < LIST_SIZE; ++i)
 	{
 		cout << "Testing number " << i << endl;
