@@ -8,7 +8,7 @@ using namespace std;
 
 int main() 
 {
-	//This is a comment cat
+	//This is a comment fish
 	cout << "Think of a number between 0 and 10000" << endl;
 	system("pause");
 
